@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Games</title>
+</head>
+<body>
+<div class="container-1">
+    <h2>Game 1: Your Age in Days</h2>
+    <div class="flex-box-container-1">
+        <div >
+            <button class="btn btn-primary" onclick="ageInDays()" >Click Me</button>
+        </div>
+        <div >
+            <button class="btn btn-danger" onclick="reset()">Reset</button>
+        </div>
+        
+    </div>
+    <div class="flex-box-container-2">
+        <div id="ans" ></div>
+    </div>
+</div>
+<div class="container-2">
+    <h2>Game 2: Rock,Paper and Scissors</h2>
+    <div class="flex-box-container-2" id="frontrps">
+        <img id="rock" src="https://cdn0.iconfinder.com/data/icons/rock-paper-scissors-emoji/792/rock-paper-scissors-emoji-cartoon-027-512.png" height="250" width="250" onclick="rps(this)" alt="">
+        <img id="paper" src="https://tse3.mm.bing.net/th?id=OIP.i2UKL1tPMNVnJsORwAsbpAHaJl&pid=Api&P=0&w=300&h=300" height="250" width="250" onclick="rps(this)" alt="">
+        <img id="scissor" src="https://tse1.mm.bing.net/th?id=OIP.Cvtt7jDmqB2a4WcG0225tgHaER&pid=Api&P=0&w=315&h=183" height="250" width="250" onclick="rps(this)" alt="">
+    </div>
+    <div id="rst" class="text-center flex-box-container">
+        <!-- <button class="btn btn-primary" onclick="btnReset()">Play More!</button> -->
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

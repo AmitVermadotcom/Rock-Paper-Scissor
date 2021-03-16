@@ -1,0 +1,40 @@
+.container-1, .container-2{
+    margin: auto 50px;
+    border: 3px solid black;
+}
+.container-1 h2, .container-2 h2{
+    text-align: center;
+}
+.flex-box-container-1, .flex-box-container-2{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+.flex-box-container-1 div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.flex-box-container-2 #ans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-box-container-2 #ans h1{
+    
+    margin: 15px;
+    padding: 10px 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+.flex-box-container-2 img:hover{
+    box-shadow: 0px 10px 50px rgb(98, 98, 255);
+}
+
